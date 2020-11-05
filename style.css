@@ -1,3 +1,4 @@
+
 body {
   color: rgb(230, 230, 230);
   padding: 0;
@@ -28,7 +29,6 @@ header nav {
 
 header nav ul {
   display: flex;
-  justify-content: center;
   justify-content: space-around;
   padding: 12px;
   margin: 10px;
@@ -56,6 +56,7 @@ article {
 .Container {
   position: relative;
   text-align: center;
+  user-select: none;
 }
 
 .Container img {
@@ -83,10 +84,152 @@ article {
   font-size: 23px;
   letter-spacing: 6px;
   transition: 0.5s;
-  user-select: none;
+  
 }
 
 .Container .Newproductlink:hover {
   color: white;
   margin-left: 10px;
+}
+
+.Container2 {
+color:rgb(53,54,55);
+font-family: "Staatliches", cursive;
+background-color: white;
+margin-top: -4px;
+border-top: rgb(205, 173, 113) 2px solid;
+
+}
+
+.Container2 .latestproducts {
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 10px;
+  padding: 16px;
+  background-color: rgb(38, 38, 38);
+  color:  rgb(205, 173, 113);
+  border-bottom: rgb(205, 173, 113) 2px solid;
+  user-select: none;
+}
+
+.Container2 .latestproduct-img{
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.Container2 .latestproduct-img img{
+  
+  padding: 20px;
+
+}
+
+.Container2 .latestproduct-box {
+  display: flex;
+  justify-content: space-around;
+  
+}
+.Container2 .latestproduct-boxlink {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+
+
+.Container2 .latestproduct-text {
+  font-size: 30px;
+  padding: 15px;
+  user-select: none;
+}
+
+.Container2 .latestproduct-textlink {
+  font-size: 22px;
+  user-select: none;
+}
+
+.Container2 .latestproduct-textlink:hover {
+  color: black;
+  border-bottom: black solid 2px;
+  
+}
+
+footer {
+  background-color: rgb(38, 38, 38);
+  border-top: rgb(205, 173, 113) solid 2px;
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+}
+
+footer .footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .footer .footertext {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 4px;
+  font-size: 30px;
+  color: rgb(205, 173, 113);
+  user-select: none;
+  transition: 0.5s;
+}
+
+footer .footer .footertext:hover {
+  color: white;
+ 
+}
+
+.ContainerProduct1 {
+  font-family: "Staatliches", cursive;
+  color: black;
+}
+
+.ContainerProduct1 .YPHONE-Headertext{
+  color: rgb(205, 173, 113);
+  background-color: rgb(38, 38, 38);
+  font-size: 34px;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 10px;
+  border-bottom: rgb(205, 173, 113) 2px solid;
+  padding: 16px;
+  font-family: "Roboto", sans-serif;
+  user-select: none;
+}
+
+.ContainerProduct1 .YPhone-Productlist .YPhone-img img{
+  width: 470px;
+  height: 630px;
+  
+}
+
+.ContainerProduct1 .YPhone-Productlist .YPhone-img{
+  padding: 40px;
+  margin-right: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ContainerProduct1 .product-box {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: column;
+}
+
+.ContainerProduct1 .product-box .product-text {
+  font-size: 30px;
+}
+
+.ContainerProduct1 .product-boxlink {
+  display: flex;
+  justify-content: space-around;
+  font-size: 22px;
+
+}
+
+.ContainerProduct1 .latestproduct-boxlink .product-textlink {
+  
 }
