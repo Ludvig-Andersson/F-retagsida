@@ -7,7 +7,8 @@ body {
 }
 
 header {
-  background-color: rgb(38, 38, 38);
+  background-color: rgb(34, 35, 36);
+  
   position: sticky;
   border-bottom: rgb(205, 173, 113) solid 2px;
 }
@@ -44,6 +45,7 @@ header nav ul li a {
   font-family: "Montserrat", sans-serif;
   transition: 0.5s;
   user-select: none;
+  text-decoration: none;
 }
 
 header nav ul li a:hover {
@@ -75,6 +77,8 @@ article {
   letter-spacing: 14px;
 }
 
+
+
 .Container .Newproductlink {
   color: rgb(205, 173, 113);
   font-family: "Staatliches", cursive;
@@ -94,6 +98,7 @@ article {
 
 .Container2 {
 color:rgb(53,54,55);
+
 font-family: "Staatliches", cursive;
 background-color: white;
 margin-top: -4px;
@@ -107,7 +112,7 @@ border-top: rgb(205, 173, 113) 2px solid;
   justify-content: center;
   letter-spacing: 10px;
   padding: 16px;
-  background-color: rgb(38, 38, 38);
+  background-color: rgb(34, 35, 36);
   color:  rgb(205, 173, 113);
   border-bottom: rgb(205, 173, 113) 2px solid;
   user-select: none;
@@ -152,11 +157,10 @@ border-top: rgb(205, 173, 113) 2px solid;
 .Container2 .latestproduct-textlink:hover {
   color: black;
   border-bottom: black solid 2px;
-  
 }
 
 footer {
-  background-color: rgb(38, 38, 38);
+  background-color: rgb(34, 35, 36);
   border-top: rgb(205, 173, 113) solid 2px;
   padding: 10px;
   height: 100%;
@@ -185,6 +189,19 @@ footer .footer .footertext:hover {
 .ContainerProduct1 {
   font-family: "Staatliches", cursive;
   color: black;
+  
+}
+
+.ContainerProduct1 .YPhone-product-card {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.ContainerProduct1 .YPhone-Productlist .YPhone-img img{
+  width: 370px;
+  height: 480px;
+  border: rgb(205, 173, 113) solid 2px;
 }
 
 .ContainerProduct1 .YPHONE-Headertext{
@@ -200,36 +217,10 @@ footer .footer .footertext:hover {
   user-select: none;
 }
 
-.ContainerProduct1 .YPhone-Productlist .YPhone-img img{
-  width: 470px;
-  height: 630px;
-  
-}
 
-.ContainerProduct1 .YPhone-Productlist .YPhone-img{
-  padding: 40px;
-  margin-right: 30px;
-  display: flex;
-  justify-content: space-around;
-}
 
-.ContainerProduct1 .product-box {
-  display: flex;
-  justify-content: space-around;
-  flex-flow: column;
-}
 
-.ContainerProduct1 .product-box .product-text {
-  font-size: 30px;
-}
 
-.ContainerProduct1 .product-boxlink {
-  display: flex;
-  justify-content: space-around;
-  font-size: 22px;
 
-}
 
-.ContainerProduct1 .latestproduct-boxlink .product-textlink {
-  
-}
+
