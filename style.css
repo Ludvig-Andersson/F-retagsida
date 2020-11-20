@@ -7,7 +7,6 @@ body {
 
 header {
   background-color: rgb(34, 35, 36);
-
   position: sticky;
   border-bottom: rgb(205, 173, 113) solid 2px;
 }
@@ -20,7 +19,14 @@ header .header {
   font-family: "Roboto", sans-serif;
   letter-spacing: 8px;
   justify-content: center;
+  text-decoration: none;
+  transition: 0.5s;
 }
+
+header .header:hover {
+  color: white;
+}
+
 
 header nav {
   margin: -10px;
@@ -51,8 +57,6 @@ header nav ul li a:hover {
   color: white;
 }
 
-article {
-}
 
 .Container {
   position: relative;
@@ -116,6 +120,8 @@ article {
 
 .Container2 .latestproduct-img img {
   padding: 20px;
+  width: 300px;
+  height: 400px;
 }
 
 .Container2 .latestproduct-box {
@@ -137,6 +143,8 @@ article {
 .Container2 .latestproduct-textlink {
   font-size: 22px;
   user-select: none;
+  text-decoration: none;
+  color: black;
 }
 
 .Container2 .latestproduct-textlink:hover {
@@ -164,6 +172,7 @@ footer .footer .footertext {
   color: rgb(205, 173, 113);
   user-select: none;
   transition: 0.5s;
+  text-decoration: none;
 }
 
 footer .footer .footertext:hover {
@@ -175,7 +184,7 @@ footer .footer .footertext:hover {
   color: black;
 }
 
-.ContainerProduct1 .Headertext {
+.Headertext {
   color: rgb(205, 173, 113);
   background-color: rgb(38, 38, 38);
   font-size: 34px;
@@ -226,10 +235,72 @@ footer .footer .footertext:hover {
   text-decoration: none;
 }
 
-.product-info h6:hover {
+.product-info a:hover {
   color: darkblue;
   border-color: darkblue;
 }
 
 .Container3 {
+  
+  background-color: white;
+ 
+}
+
+.Container3 .Inner_Container3 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Container3 .TextCard {
+  
+  
+  padding: 50px;
+  width: 36%;
+}
+
+
+.Container3 .TextBox {
+  display: flex;
+  
+  color:black;
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  padding: 25px;
+  
+  letter-spacing: 3px;
+}
+
+.Container4 {
+  Padding: 60px 0;
+  
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  
+}
+
+.Inner_Container4 {
+  
+  
+}
+
+.Inner_Container4 .Header_Section {
+  color: rgb(38, 38, 38);
+  font-size: 30px;
+  letter-spacing: 5px;
+  text-align: center;
+  user-select: none;
+}
+
+.Inner_Container4 .Services_Container h3{
+  color: rgb(38, 38, 38);
+   text-align: center;
+   font-size: 30px;
+   transition: 0.5s;
+   user-select: none;
+}
+
+.Inner_Container4 .Services_Container h3:Hover {
+  color: blue;
+  margin-left: 20px;
 }
